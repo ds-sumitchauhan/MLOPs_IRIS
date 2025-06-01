@@ -166,7 +166,7 @@ prediction=mod_dt.predict(X_test)
 print('The accuracy of the Decision Tree is',"{:.3f}".format(metrics.accuracy_score(prediction,y_test)))
 
 # %%
-import pickle
+# import pickle
 import joblib
 
 joblib.dump(mod_dt, "model.joblib")
